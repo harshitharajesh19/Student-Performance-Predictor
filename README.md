@@ -117,4 +117,5 @@ Open the application in your browser.
 **Harshitha Rajesh**
 
 GitHub: https://github.com/harshitharajesh19
+
 LinkedIn: https://www.linkedin.com/in/harshitha-miryala-2b5b3a264
