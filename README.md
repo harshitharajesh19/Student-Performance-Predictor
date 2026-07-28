@@ -110,12 +110,15 @@ Open the application in your browser.
 - Mobile application support
 
 ---
+## Contributing
+Contributions are welcome! Feel free to fork this repository and submit a pull request with improvements or new features.
 
+## License
+This project is licensed under the MIT License.
 
-## Author
+---
 
-**Harshitha Rajesh**
+**Author:** M.Harshitha  
+**GitHub:**   [harshitharajesh19](https://github.com/harshitharajesh19)
 
-GitHub: https://github.com/harshitharajesh19
-
-LinkedIn: https://www.linkedin.com/in/harshitha-miryala-2b5b3a264
+**LinkedIn:** [harshitharajesh](https://www.linkedin.com/in/harshitha-miryala-2b5b3a264)
