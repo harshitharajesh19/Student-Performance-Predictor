@@ -1,0 +1,81 @@
+/* frontend/src/css/styles.css */
+
+/* Page background - soft gradient with subtle pattern */
+.page-bg {
+  background: radial-gradient(circle at 10% 10%, rgba(58,123,213,0.12), transparent 15%),
+              linear-gradient(135deg, #f6fbff 0%, #f2f7ff 50%, #eef6ff 100%);
+  min-height: 100vh;
+  padding: 24px;
+}
+
+/* Card container: compact, glass-like */
+.auth-card {
+  width: 100%;
+  max-width: 440px;
+  border-radius: 14px;
+  box-shadow: 0 18px 40px rgba(14,30,70,0.12);
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(255,255,255,0.85), rgba(255,255,255,0.80));
+  backdrop-filter: blur(6px) saturate(1.05);
+  border: 1px solid rgba(255,255,255,0.5);
+}
+
+/* inner padding smaller on mobile */
+.card-inner {
+  max-height: none;
+  overflow-y: visible;
+}
+.chart-wrap {
+  width: 100%;
+  max-height: 260px;   /* desired visible height */
+  height: 260px;
+  position: relative;
+}
+/* title/subtitle styles */
+.title {
+  color: #1160d6;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+.subtitle {
+  color: #4a6b9b;
+  font-size: 0.9rem;
+}
+
+/* smaller controls for a compact look */
+.form-control.form-control-sm,
+.form-select.form-select-sm {
+  padding: .45rem .6rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+/* button style tweak */
+.btn-primary {
+  background: linear-gradient(90deg, #1160d6 0%, #0f4fc4 100%);
+  border: none;
+  padding: .55rem .8rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(17,96,214,0.15);
+}
+
+/* message alert wrapper */
+#message .alert {
+  margin: 0 auto;
+  max-width: 360px;
+}
+
+/* responsive adjustments */
+@media (max-width: 576px) {
+  .auth-card { border-radius: 10px; max-width: 96%; }
+  .title { font-size: 1.2rem; }
+  .card-inner { padding: 1rem; }
+}
+.chart-wrap { max-height: 200px; height: 200px; }
+
+/* hide default scrollbar in some browsers but keep scroll functionality */
+.card-inner::-webkit-scrollbar { width: 8px; }
+.card-inner::-webkit-scrollbar-thumb {
+  background: rgba(16,56,120,0.12);
+  border-radius: 8px;
+}
