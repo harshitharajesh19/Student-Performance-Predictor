@@ -1,0 +1,30 @@
+{
+  "study_hours": {
+    "active": true,
+    "weight": 1.5
+  },
+  "extracurricular_hours": {
+    "active": true,
+    "weight": 2
+  },
+  "sleep_hours": {
+    "active": true,
+    "weight": 7
+  },
+  "social_hours": {
+    "active": true,
+    "weight": 1
+  },
+  "physical_activity_hours": {
+    "active": true,
+    "weight": 1.3
+  },
+  "stress_level": {
+    "active": true,
+    "weight": 1.1
+  },
+  "attendance": {
+    "active": true,
+    "weight": 60
+  }
+}
