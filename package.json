@@ -1,0 +1,27 @@
+{
+  "name": "student-performance",
+  "version": "1.0.0",
+  "description": "Unified Student Performance backend",
+  "type": "module",
+  "main": "backend/index.js",
+  "scripts": {
+    "start": "nodemon backend/index.js",
+    "start:watch": "nodemon backend/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "bcryptjs": "^3.0.3",
+    "chartjs": "^0.3.24",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.15.3",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.27"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "author": "",
+  "license": "ISC"
+}
